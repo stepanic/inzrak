@@ -1,33 +1,6 @@
 webpackJsonp([2,4],{
 
-/***/ 531:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(761);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// add the styles to the DOM
-var update = __webpack_require__(831)(content, {});
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../node_modules/postcss-loader/index.js!../node_modules/sass-loader/index.js!./styles.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../node_modules/postcss-loader/index.js!../node_modules/sass-loader/index.js!./styles.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-
-/***/ 57:
+/***/ 32:
 /***/ (function(module, exports) {
 
 /*
@@ -84,10 +57,37 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 760:
+/***/ 531:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(57)();
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(765);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(841)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../node_modules/postcss-loader/index.js!../node_modules/sass-loader/index.js!./styles.scss", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../node_modules/postcss-loader/index.js!../node_modules/sass-loader/index.js!./styles.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 764:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(32)();
 // imports
 
 
@@ -99,12 +99,12 @@ exports.push([module.i, ".mat-elevation-z0{box-shadow:0 0 0 0 rgba(0,0,0,.2),0 0
 
 /***/ }),
 
-/***/ 761:
+/***/ 765:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(57)();
+exports = module.exports = __webpack_require__(32)();
 // imports
-exports.i(__webpack_require__(760), "");
+exports.i(__webpack_require__(764), "");
 
 // module
 exports.push([module.i, "/* This is global styles import other style files here */\n", ""]);
@@ -114,7 +114,7 @@ exports.push([module.i, "/* This is global styles import other style files here 
 
 /***/ }),
 
-/***/ 831:
+/***/ 841:
 /***/ (function(module, exports) {
 
 /*
@@ -367,7 +367,7 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 862:
+/***/ 871:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(531);
@@ -375,5 +375,5 @@ module.exports = __webpack_require__(531);
 
 /***/ })
 
-},[862]);
+},[871]);
 //# sourceMappingURL=styles.bundle.js.map

@@ -63,24 +63,26 @@
             background: #FFF;
             z-index: -1;
         }
-        
-        div.loading-splash-screen h1 img {
-            height: 100px;
-        }
-        
-        app-root:empty+div.loading-splash-screen {
-            opacity: 1;
-            z-index: 100;
-        }
-        
-        app-root:empty+div.loading-splash-screen h1 {
-            color: #098040;
+        div.loading-splash-screen h1 {
+            font-size: 0px;
             position: absolute;
             font-size: 2em;
             top: 50%;
             width: 100%;
+            color: #098040;
+            font-size: 2em;
             text-align: center;
             transform: translate(0, -50%);
+        }
+        div.loading-splash-screen h1 img {
+            height: 100px;
+        }
+        app-root:empty+div.loading-splash-screen {
+            opacity: 1;
+            z-index: 100;
+        }
+        app-root:empty+div.loading-splash-screen h1 {
+            font-size: 2em;
         }
     </style>
 <script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
