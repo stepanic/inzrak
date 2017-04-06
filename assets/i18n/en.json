@@ -1,0 +1,16 @@
+{
+    "LOADING": "Loading...",
+    "MENU": "Menu",
+    "INFORMATIONS": {
+        "title": "Informations"
+    },
+    "DOCUMENTS": {
+        "title": "Documents"
+    },
+    "EVENTS": {
+        "title": "Events"
+    },
+    "CONTACT": {
+        "title": "Contact"
+    }
+}

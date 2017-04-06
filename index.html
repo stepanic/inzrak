@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <base href="/">
+
     <script>
         (function() {
             var redirect = sessionStorage.redirect;
@@ -12,21 +14,75 @@
         })();
     </script>
 
-    <base href="/">
     <meta charset="utf-8">
     <title>INZRAK</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
     />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+
+        rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
     <meta name="viewport"
         content="width=device-width, initial-scale=1">
     <link rel="icon"
         type="image/x-icon"
         href="favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <app-root>Loading...</app-root>
+    <app-root></app-root>
+
+    <div class="loading-splash-screen">
+        <h1>
+            <img src="assets/svg/logo.svg">
+            <br><br> Učitavanje...
+        </h1>
+    </div>
+
+    <style>
+        div.loading-splash-screen {
+            opacity: 0;
+            transition: opacity .8s ease-in-out;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            color: #098040;
+            background: #FFF;
+            z-index: -1;
+        }
+        
+        div.loading-splash-screen h1 img {
+            height: 100px;
+        }
+        
+        app-root:empty+div.loading-splash-screen {
+            opacity: 1;
+            z-index: 100;
+        }
+        
+        app-root:empty+div.loading-splash-screen h1 {
+            color: #098040;
+            position: absolute;
+            font-size: 2em;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            transform: translate(0, -50%);
+        }
+    </style>
 <script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
 
 </html>

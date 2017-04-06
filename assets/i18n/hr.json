@@ -1,0 +1,16 @@
+{
+    "LOADING": "Učitavanje...",
+    "MENU": "Izbornik",
+    "INFORMATIONS": {
+        "title": "Informacije"
+    },
+    "DOCUMENTS": {
+        "title": "Dokumenti"
+    },
+    "EVENTS": {
+        "title": "Događaji"
+    },
+    "CONTACT": {
+        "title": "Kontakt"
+    }
+}
