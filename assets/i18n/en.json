@@ -12,5 +12,9 @@
     },
     "CONTACT": {
         "title": "Contact"
+    },
+    "FOOTER": {
+        "DISCLAIMER": "Disclaimer: The content of this website is the exclusive responsibility of EKONERG Institute for Energy and Environmental, Ltd. and do not necessarily reflect the views of the European Union",
+        "COPYRIGHT": "All rights reserved &copy; Copyright by EKONERG d.o.o. 2017"
     }
 }

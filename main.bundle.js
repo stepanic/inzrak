@@ -293,7 +293,7 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_app_services_module__ = __webpack_require__(708);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__containers_app_containers_module__ = __webpack_require__(461);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_header_header_component__ = __webpack_require__(702);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_contact_contact_component__ = __webpack_require__(701);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_footer_footer_component__ = __webpack_require__(701);
 /* unused harmony export HttpLoaderFactory */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -332,7 +332,7 @@ var AppModule = (function () {
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */],
                 __WEBPACK_IMPORTED_MODULE_13__components_header_header_component__["a" /* HeaderComponent */],
-                __WEBPACK_IMPORTED_MODULE_14__components_contact_contact_component__["a" /* ContactComponent */]
+                __WEBPACK_IMPORTED_MODULE_14__components_footer_footer_component__["a" /* FooterComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -368,7 +368,7 @@ var AppModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FooterComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -379,22 +379,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var ContactComponent = (function () {
-    function ContactComponent() {
+var FooterComponent = (function () {
+    function FooterComponent() {
     }
-    ContactComponent.prototype.ngOnInit = function () {
+    FooterComponent.prototype.ngOnInit = function () {
     };
-    ContactComponent = __decorate([
+    FooterComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'app-contact',
+            selector: 'app-footer',
             template: __webpack_require__(782),
             styles: [__webpack_require__(767)]
         }), 
         __metadata('design:paramtypes', [])
-    ], ContactComponent);
-    return ContactComponent;
+    ], FooterComponent);
+    return FooterComponent;
 }());
-//# sourceMappingURL=contact.component.js.map
+//# sourceMappingURL=footer.component.js.map
 
 /***/ }),
 
@@ -738,7 +738,7 @@ exports = module.exports = __webpack_require__(32)();
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "div.footer-top {\n  padding-bottom: 30px;\n  padding-top: 30px;\n  border-top: 1px solid #e7e7e7; }\n  div.footer-top div.col-md-3 {\n    text-align: center; }\n    div.footer-top div.col-md-3 img {\n      display: inline-block;\n      max-height: 110px; }\n  @media (min-width: 768px) and (max-width: 991px) {\n    div.footer-top div.col-md-3 {\n      padding-bottom: 20px; } }\n\ndiv.footer-middle {\n  border-top: 1px solid #e7e7e7;\n  border-bottom: 1px solid #e7e7e7;\n  background-color: #f8f8f8; }\n  div.footer-middle div.disclaimer {\n    padding-bottom: 10px;\n    padding-top: 10px;\n    font-size: 11px; }\n\ndiv.footer-bottom {\n  color: #f8f8f8;\n  background-color: #098040;\n  font-size: 12px; }\n  div.footer-bottom div.copyright {\n    text-align: center;\n    padding-top: 20px;\n    padding-bottom: 20px; }\n", ""]);
 
 // exports
 
@@ -774,7 +774,7 @@ exports = module.exports = __webpack_require__(32)();
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "div.wrapper {\n  min-height: 600px; }\n", ""]);
 
 // exports
 
@@ -859,14 +859,14 @@ module.exports = module.exports.toString();
 /***/ 781:
 /***/ (function(module, exports) {
 
-module.exports = "<app-header></app-header>\n\n<div class=\"wrapper container\">\n    <ui-view></ui-view>\n</div>"
+module.exports = "<app-header></app-header>\n\n<div class=\"wrapper container\">\n    <ui-view></ui-view>\n</div>\n\n<app-footer></app-footer>"
 
 /***/ }),
 
 /***/ 782:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  contact works!\n</p>\n"
+module.exports = "<div class=\"footer-top\">\n  <div class=\"container\" >\n    <div class=\"row\" >\n      <div class=\"col-md-3 col-sm-6\" >\n        <a href=\"http://www.mzoip.hr/\" target=\"_blank\" >\n          <img src=\"assets/img/mzoip.jpg\" class=\"img-responsive\">\n        </a>\n      </div>\n      <div class=\"col-md-3 col-sm-6\" >\n        <a href=\"http://www.ekonerg.hr/\" target=\"_blank\" >\n          <img src=\"assets/img/ekonerg.jpg\" class=\"img-responsive\">\n        </a>\n      </div>\n      <div class=\"col-md-3 col-sm-6\" >\n        <a href=\"http://www.safu.hr/\" target=\"_blank\" >\n          <img src=\"assets/img/safu.png\" class=\"img-responsive\">\n        </a>\n      </div>\n      <div class=\"col-md-3 col-sm-6\" >\n        <a href=\"https://europa.eu/\" target=\"_blank\" >\n          <img src=\"assets/img/eu.jpg\" class=\"img-responsive\">\n        </a>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"footer-middle\">\n  <div class=\"container\" >\n    <div [innerHTML]=\"'FOOTER.DISCLAIMER' | translate\" class=\"disclaimer\" ></div>\n  </div>\n</div>\n<div class=\"footer-bottom\">\n  <div class=\"container\" >\n    <div [innerHTML]=\"'FOOTER.COPYRIGHT' | translate\" class=\"copyright\" ></div>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -880,7 +880,7 @@ module.exports = "<!-- Navigation -->\n<nav class=\"navbar navbar-default navbar
 /***/ 784:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  contact works!\n</p>\n"
+module.exports = "<div class=\"wrapper\">\n  contact works!\n</div>\n"
 
 /***/ }),
 
