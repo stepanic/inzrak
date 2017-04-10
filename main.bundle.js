@@ -774,7 +774,7 @@ exports = module.exports = __webpack_require__(32)();
 
 
 // module
-exports.push([module.i, "div.wrapper {\n  min-height: 600px; }\n", ""]);
+exports.push([module.i, "div.wrapper {\n  min-height: 100px; }\n", ""]);
 
 // exports
 
