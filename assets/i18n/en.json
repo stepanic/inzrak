@@ -1,6 +1,11 @@
 {
     "LOADING": "Loading...",
     "MENU": "Menu",
+    "HOME": {
+        "WELCOME": {
+            "title": "Welcome to IPA INZRAK website!"
+        }
+    },
     "INFORMATIONS": {
         "title": "Informations"
     },

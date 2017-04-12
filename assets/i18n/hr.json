@@ -1,6 +1,11 @@
 {
     "LOADING": "Učitavanje...",
     "MENU": "Izbornik",
+    "HOME": {
+        "WELCOME": {
+            "title": "Dobrodošli na službene web stranice projekta IPA INZRAK!"
+        }
+    },
     "INFORMATIONS": {
         "title": "Informacije"
     },
