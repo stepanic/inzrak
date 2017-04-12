@@ -1,6 +1,14 @@
 webpackJsonp([2,4],{
 
-/***/ 32:
+/***/ 1028:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(585);
+
+
+/***/ }),
+
+/***/ 44:
 /***/ (function(module, exports) {
 
 /*
@@ -57,16 +65,16 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 531:
+/***/ 585:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(765);
+var content = __webpack_require__(918);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(841)(content, {});
+var update = __webpack_require__(996)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -84,10 +92,10 @@ if(false) {
 
 /***/ }),
 
-/***/ 764:
+/***/ 917:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)();
+exports = module.exports = __webpack_require__(44)();
 // imports
 
 
@@ -99,12 +107,12 @@ exports.push([module.i, ".mat-elevation-z0{box-shadow:0 0 0 0 rgba(0,0,0,.2),0 0
 
 /***/ }),
 
-/***/ 765:
+/***/ 918:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(32)();
+exports = module.exports = __webpack_require__(44)();
 // imports
-exports.i(__webpack_require__(764), "");
+exports.i(__webpack_require__(917), "");
 
 // module
 exports.push([module.i, "/* This is global styles import other style files here */\n", ""]);
@@ -114,7 +122,7 @@ exports.push([module.i, "/* This is global styles import other style files here 
 
 /***/ }),
 
-/***/ 841:
+/***/ 996:
 /***/ (function(module, exports) {
 
 /*
@@ -365,15 +373,7 @@ function updateLink(linkElement, obj) {
 }
 
 
-/***/ }),
-
-/***/ 871:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(531);
-
-
 /***/ })
 
-},[871]);
+},[1028]);
 //# sourceMappingURL=styles.bundle.js.map
