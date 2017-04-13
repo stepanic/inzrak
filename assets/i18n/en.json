@@ -2,10 +2,17 @@
     "LOADING": "Loading...",
     "MENU": "Menu",
     "HOME": {
+        "path": "/home",
         "WELCOME": {
-            "title": "Welcome to IPA INZRAK website!"
+            "title": "Strengthening environmental inspection for the effective control of air quality monitoring systems and emissions trading, in order to achieve better air quality in the Republic of Croatia"
         },
-        "path": "/home"
+        "INTRO": {
+            "p1": "The project aims to improve the air quality monitoring system and emissions trading to mitigate climate change and improve the overall state of the environment and air pollution in the Republic of Croatia.",
+
+            "p2": "The project will improve environmental inspections and allow effective monitoring of air quality monitoring and all entities under the obligations in the system of emissions trading.",
+
+            "p3": "Vrijednost projekta je 425.000 eura, pri čemu se 90% ugovorenog iznosa financira iz programa IPA 2013 Europske unije za Hrvatsku, a 10% predstavlja nacionalno sufinanciranje."
+        }
     },
     "INFORMATIONS": {
         "title": "Informations",
@@ -21,7 +28,92 @@
     },
     "CONTACT": {
         "title": "Contact",
-        "path": "/contact"
+        "path": "/contact",
+        "DATA": {
+
+            "p1": {
+                "title": "Project Manager of the Customer institution:",
+                "name": "Anita Pokrovac Patekar",
+                "organization": "The Ministry of Environment and Nature",
+                "address": "Radnička cesta 80, 10000 Zagreb, Croatia",
+                "email": {
+                    "title": "Email address:",
+                    "value": "anita.pokrovac.patekar@mzoip.hr"
+                },
+                "tel": {
+                    "title": "Tel:",
+                    "value": "+385 1 3717 902"
+                },
+                "fax": {
+                    "title": "Fax:",
+                    "value": "+385 1 3717 212"
+                }
+            },
+
+            "p2": {
+                "title": "Project Manager of the Contracting Authority:",
+                "name": "Goran Janeković",
+                "organization": "EKONERG – Institute for Energy and Environmental Protection, d.o.o.",
+                "address": "Koranska 5, 10000 Zagreb, Croatia",
+                "email": {
+                    "title": "Email address:",
+                    "value": "goran.janekovic@ekonerg.hr"
+                },
+                "tel": {
+                    "title": "Tel:",
+                    "value": "+385 1 6000 123"
+                },
+                "fax": {
+                    "title": "Fax:",
+                    "value": "+385 1 6171 560"
+                }
+            }
+
+        },
+        "FORM": {
+            "TITLE": "Contact us",
+            "FIELDS": {
+                "name": {
+                    "label": "First and Last name",
+                    "placeholder": "Type First and Last name",
+                    "validation": {
+                        "required": "First and Last name are required!"
+                    }
+                },
+                "company": {
+                    "label": "Company",
+                    "placeholder": "Type company name",
+                    "validation": {
+                    }
+                },
+                "email": {
+                    "label": "Email address",
+                    "placeholder": "Type Email address",
+                    "validation": {
+                        "required": "Email address is required!",
+                        "email": "Email address is not valid!"
+                    }
+                },
+                "subject": {
+                    "label": "Subject",
+                    "placeholder": "Type Subject",
+                    "validation": {
+                        "required": "Subject is required!"
+                    }
+                },
+                "message": {
+                    "label": "Message",
+                    "placeholder": "message content...",
+                    "validation": {
+                        "required": "Message is required!"
+                    }
+                },
+                "captcha": {
+                    "label": "Click in the box"
+                }
+            },
+            "SEND": "Send message"
+        }
     },
     "FOOTER": {
         "DISCLAIMER": "Disclaimer: The content of this website is the exclusive responsibility of EKONERG Institute for Energy and Environmental, Ltd. and do not necessarily reflect the views of the European Union",

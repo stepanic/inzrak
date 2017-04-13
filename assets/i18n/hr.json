@@ -2,10 +2,17 @@
     "LOADING": "Učitavanje...",
     "MENU": "Izbornik",
     "HOME": {
+        "path": "/naslovnica",
         "WELCOME": {
-            "title": "Dobrodošli na službene web stranice projekta IPA INZRAK!"
+            "title": "Jačanje inspekcije zaštite okoliša radi učinkovite kontrole praćenja kakvoće zraka i sustava trgovanja emisijskim jedinicama stakleničkih plinova, kako bi se postigla bolja kvaliteta zraka u Republici Hrvatskoj"
         },
-        "path": "/naslovnica"
+        "INTRO": {
+            "p1": "Cilj projekta je poboljšanje praćenja kvalitete zraka i sustava trgovanja emisijskim jedinicama stakleničkih plinova radi ublažavanja klimatskih promjena i poboljšanja cjelokupnog stanja okoliša i onečišćenja zraka u Republici Hrvatskoj.",
+
+            "p2": "Projektom će se unaprijediti inspekcija zaštite okoliša i omogućiti učinkovit nadzor praćenja kvalitete zraka i svih subjekata prema obvezama u sustavu trgovanja emisijskim jedinicama stakleničkih plinova.",
+
+            "p3": "Vrijednost projekta je 425.000 eura, pri čemu se 90% ugovorenog iznosa financira iz programa IPA 2013 Europske unije za Hrvatsku, a 10% predstavlja nacionalno sufinanciranje. "
+        }
     },
     "INFORMATIONS": {
         "title": "Informacije",
@@ -21,7 +28,92 @@
     },
     "CONTACT": {
         "title": "Kontakt",
-        "path": "/kontakt"
+        "path": "/kontakt",
+        "DATA": {
+
+            "p1": {
+                "title": "Voditelj projekta Korisničke institucije:",
+                "name": "Anita Pokrovac Patekar",
+                "organization": "Ministarstvo zaštite okoliša i prirode",
+                "address": "Radnička cesta 80, 10000 Zagreb, Hrvatska",
+                "email": {
+                    "title": "Adresa elektroničke pošte:",
+                    "value": "anita.pokrovac.patekar@mzoip.hr"
+                },
+                "tel": {
+                    "title": "Tel:",
+                    "value": "+385 1 3717 902"
+                },
+                "fax": {
+                    "title": "Fax:",
+                    "value": "+385 1 3717 212"
+                }
+            },
+
+            "p2": {
+                "title": "Voditelj projekta Ugovaratelja:",
+                "name": "Goran Janeković",
+                "organization": "EKONERG – institut za energetiku i zaštitu okoliša, d.o.o.",
+                "address": "Koranska 5, 10000 Zagreb, Hrvatska",
+                "email": {
+                    "title": "Adresa elektroničke pošte:",
+                    "value": "goran.janekovic@ekonerg.hr"
+                },
+                "tel": {
+                    "title": "Tel:",
+                    "value": "+385 1 6000 123"
+                },
+                "fax": {
+                    "title": "Fax:",
+                    "value": "+385 1 6171 560"
+                }
+            }
+
+        },
+        "FORM": {
+            "TITLE": "Kontaktirajte nas",
+            "FIELDS": {
+                "name": {
+                    "label": "Ime i prezime",
+                    "placeholder": "upišite ime i prezime",
+                    "validation": {
+                        "required": "Ime i prezime je obavezno!"
+                    }
+                },
+                "company": {
+                    "label": "Tvrtka",
+                    "placeholder": "upišite naziv tvrtke",
+                    "validation": {
+                    }
+                },
+                "email": {
+                    "label": "Email adresa",
+                    "placeholder": "upišite email adresu",
+                    "validation": {
+                        "required": "Email adresa je obavezna!",
+                        "email": "Email adresa je u neispravnom formatu!"
+                    }
+                },
+                "subject": {
+                    "label": "Naslov",
+                    "placeholder": "upišite naslov poruke",
+                    "validation": {
+                        "required": "Naslov je obavezan!"
+                    }
+                },
+                "message": {
+                    "label": "Poruka",
+                    "placeholder": "sadržaj poruke...",
+                    "validation": {
+                        "required": "Tekst poruke je obavezan!"
+                    }
+                },
+                "captcha": {
+                    "label": "Kliknite u kvadratić"
+                }
+            },
+            "SEND": "Pošaljite poruku"
+        }
     },
     "FOOTER": {
         "DISCLAIMER": "Odricanje od odgovornosti: Sadržaj ove internetske stranice isključivo je odgovornost EKONERG-instituta za energetiku i zaštitu okoliša, d.o.o. i ne odražava nužno gledište Europske unije",
