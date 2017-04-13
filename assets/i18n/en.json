@@ -4,19 +4,24 @@
     "HOME": {
         "WELCOME": {
             "title": "Welcome to IPA INZRAK website!"
-        }
+        },
+        "path": "/home"
     },
     "INFORMATIONS": {
-        "title": "Informations"
+        "title": "Informations",
+        "path": "/informations"
     },
     "DOCUMENTS": {
-        "title": "Documents"
+        "title": "Documents",
+        "path": "/documents"
     },
     "EVENTS": {
-        "title": "Events"
+        "title": "Events",
+        "path": "/events"
     },
     "CONTACT": {
-        "title": "Contact"
+        "title": "Contact",
+        "path": "/contact"
     },
     "FOOTER": {
         "DISCLAIMER": "Disclaimer: The content of this website is the exclusive responsibility of EKONERG Institute for Energy and Environmental, Ltd. and do not necessarily reflect the views of the European Union",

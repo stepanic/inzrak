@@ -4,19 +4,24 @@
     "HOME": {
         "WELCOME": {
             "title": "Dobrodošli na službene web stranice projekta IPA INZRAK!"
-        }
+        },
+        "path": "/naslovnica"
     },
     "INFORMATIONS": {
-        "title": "Informacije"
+        "title": "Informacije",
+        "path": "/informacije"
     },
     "DOCUMENTS": {
-        "title": "Dokumenti"
+        "title": "Dokumenti",
+        "path": "/dokumenti"
     },
     "EVENTS": {
-        "title": "Događaji"
+        "title": "Događaji",
+        "path": "/dogadaji"
     },
     "CONTACT": {
-        "title": "Kontakt"
+        "title": "Kontakt",
+        "path": "/kontakt"
     },
     "FOOTER": {
         "DISCLAIMER": "Odricanje od odgovornosti: Sadržaj ove internetske stranice isključivo je odgovornost EKONERG-instituta za energetiku i zaštitu okoliša, d.o.o. i ne odražava nužno gledište Europske unije",
