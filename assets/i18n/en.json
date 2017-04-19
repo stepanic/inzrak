@@ -16,15 +16,24 @@
     },
     "INFORMATIONS": {
         "title": "Informations",
-        "path": "/informations"
+        "path": "/informations",
+        "PAGE": {
+            "title": "Informations about the project"
+        }
     },
     "DOCUMENTS": {
         "title": "Documents",
-        "path": "/documents"
+        "path": "/documents",
+        "PAGE": {
+            "title": "Documents"
+        }
     },
     "EVENTS": {
         "title": "Events",
-        "path": "/events"
+        "path": "/events",
+        "PAGE": {
+            "title": "Events"
+        }
     },
     "CONTACT": {
         "title": "Contact",
@@ -71,6 +80,9 @@
 
         },
         "FORM": {
+            "LOADER": "Sending message...",
+            "MESSAGE_IS_SENT": "Your message is sent successfully.",
+            "MESSAGE_IS_NOT_SENT": "Your message is not sent successfully, please try again.",
             "TITLE": "Contact us",
             "FIELDS": {
                 "name": {
@@ -113,6 +125,13 @@
                 }
             },
             "SEND": "Send message"
+        }
+    },
+    "NEWS": {
+        "title": "News",
+        "path": "/news",
+        "PAGE": {
+            "title": "News"
         }
     },
     "FOOTER": {

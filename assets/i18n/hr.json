@@ -16,15 +16,24 @@
     },
     "INFORMATIONS": {
         "title": "Informacije",
-        "path": "/informacije"
+        "path": "/informacije",
+        "PAGE": {
+            "title": "Informacije o projektu"
+        }
     },
     "DOCUMENTS": {
         "title": "Dokumenti",
-        "path": "/dokumenti"
+        "path": "/dokumenti",
+        "PAGE": {
+            "title": "Dokumenti"
+        }
     },
     "EVENTS": {
         "title": "Događaji",
-        "path": "/dogadaji"
+        "path": "/dogadaji",
+        "PAGE": {
+            "title": "Događaji"
+        }
     },
     "CONTACT": {
         "title": "Kontakt",
@@ -71,6 +80,9 @@
 
         },
         "FORM": {
+            "LOADER": "Slanje u tijeku...",
+            "MESSAGE_IS_SENT": "Vaša poruka je uspješno poslana.",
+            "MESSAGE_IS_NOT_SENT": "Vaša poruka nije uspješno poslana, molimo Vas pokušajte ponovno i hvala na razumijevanju.",
             "TITLE": "Kontaktirajte nas",
             "FIELDS": {
                 "name": {
@@ -113,6 +125,13 @@
                 }
             },
             "SEND": "Pošaljite poruku"
+        }
+    },
+    "NEWS": {
+        "title": "Novosti",
+        "path": "/novosti",
+        "PAGE": {
+            "title": "Novosti"
         }
     },
     "FOOTER": {
