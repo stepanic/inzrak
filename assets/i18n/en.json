@@ -11,12 +11,12 @@
 
             "p2": "The project will improve environmental inspections and allow effective monitoring of air quality monitoring and all entities under the obligations in the system of emissions trading.",
 
-            "p3": "Vrijednost projekta je 425.000 eura, pri čemu se 90% ugovorenog iznosa financira iz programa IPA 2013 Europske unije za Hrvatsku, a 10% predstavlja nacionalno sufinanciranje."
+            "p3": "The value of the project is 425,000 euros, with 90% of the contracted amount financed from IPA 2013 EU Programme for Croatia, and 10% is a national co-financing."
         }
     },
     "INFORMATIONS": {
-        "title": "Informations",
-        "path": "/informations",
+        "title": "Information",
+        "path": "/information",
         "PAGE": {
             "title": "Informations about the project"
         }
@@ -43,7 +43,7 @@
             "p1": {
                 "title": "Project Manager of the Customer institution:",
                 "name": "Anita Pokrovac Patekar",
-                "organization": "The Ministry of Environment and Nature",
+                "organization": "The Ministry of Environment and Energy",
                 "address": "Radnička cesta 80, 10000 Zagreb, Croatia",
                 "email": {
                     "title": "Email address:",
@@ -130,12 +130,15 @@
     "NEWS": {
         "title": "News",
         "path": "/news",
+        "empty": "There are currently no active news",
+        "notFound": "News which you are looking for does not exist!",
         "PAGE": {
-            "title": "News"
+            "title": "News",
+            "more": "Read more"
         }
     },
     "FOOTER": {
-        "DISCLAIMER": "Disclaimer: The content of this website is the exclusive responsibility of EKONERG Institute for Energy and Environmental, Ltd. and do not necessarily reflect the views of the European Union",
+        "DISCLAIMER": "Disclaimer: The content of this website is the exclusive responsibility of EKONERG Institute for Energy and Environmental, Ltd. and does not necessarily reflect the views of the European Union",
         "COPYRIGHT": "All rights reserved &copy; Copyright by EKONERG d.o.o. 2017"
     }
 }

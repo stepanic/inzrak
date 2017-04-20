@@ -43,7 +43,7 @@
             "p1": {
                 "title": "Voditelj projekta Korisničke institucije:",
                 "name": "Anita Pokrovac Patekar",
-                "organization": "Ministarstvo zaštite okoliša i prirode",
+                "organization": "Ministarstvo zaštite okoliša i energetike",
                 "address": "Radnička cesta 80, 10000 Zagreb, Hrvatska",
                 "email": {
                     "title": "Adresa elektroničke pošte:",
@@ -130,8 +130,11 @@
     "NEWS": {
         "title": "Novosti",
         "path": "/novosti",
+        "empty": "Trenutno nema aktivnih novosti",
+        "notFound": "Tražena novost ne postoji!",
         "PAGE": {
-            "title": "Novosti"
+            "title": "Novosti",
+            "more": "Saznajte više"
         }
     },
     "FOOTER": {
