@@ -139,6 +139,9 @@
     },
     "FOOTER": {
         "DISCLAIMER": "Odricanje od odgovornosti: Sadržaj ove internetske stranice isključivo je odgovornost EKONERG-instituta za energetiku i zaštitu okoliša, d.o.o. i ne odražava nužno gledište Europske unije",
-        "COPYRIGHT": "Sva prava pridržana &copy; Copyright by EKONERG d.o.o. 2017"
+        "COPYRIGHT": "Sva prava pridržana &copy; Copyright by EKONERG d.o.o. 2017",
+        "EU": {
+            "description": "Ovaj projekt financira Europska unija"
+        }
     }
 }
