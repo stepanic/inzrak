@@ -24,6 +24,7 @@
     "DOCUMENTS": {
         "title": "Dokumenti",
         "path": "/dokumenti",
+        "notFound": "Traženi dokument ne postoji!",
         "PAGE": {
             "title": "Dokumenti"
         }
@@ -31,6 +32,7 @@
     "EVENTS": {
         "title": "Događaji",
         "path": "/dogadaji",
+        "notFound": "Traženi događaj ne postoji!",
         "PAGE": {
             "title": "Događaji"
         }

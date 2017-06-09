@@ -24,6 +24,7 @@
     "DOCUMENTS": {
         "title": "Documents",
         "path": "/documents",
+        "notFound": "Document which you are looking for does not exist!",
         "PAGE": {
             "title": "Documents"
         }
@@ -31,6 +32,7 @@
     "EVENTS": {
         "title": "Events",
         "path": "/events",
+        "notFound": "Event which you are looking for does not exist!",
         "PAGE": {
             "title": "Events"
         }
